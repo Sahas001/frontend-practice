@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*position: relative;*/
+}
+body {
+	/*position: absolute;*/
+	/*height: 100%;*/
+}
+
+
+.container {
+}
+
+.topPart {
+	/*position: absolute;*/
+	/*width: 100%;*/
+	display: flex;
+	height: 3em;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1%;
+	background: #000000;
+	color: white;
+	font-family: 'GT America', sans-serif;
+	font-size: 1.2em;
+}
+
+.abstract {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-left: 5%;
+}
+.abstract p {
+	margin-right: 5px;
+}
+
+.mainButtons {
+	margin-right: 5%;
+}
+.mainButtons button {
+	color: white;
+	padding: 8px;
+	font-size: 1em;
+	font-family: 'GT America', sans-serif;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.mainButtons button:nth-child(1) {
+	background: #000000;
+	border: 1px solid white;
+}
+.mainButtons button:nth-child(2) {
+	background: #4C5FD5;
+}
+
+.headerContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/*position: absolute;*/
+	font-family: 'GT America', sans-serif;
+	font-size: 4em;
+	height: 6em;
+	/*width: 100%;*/
+	padding-bottom: 10px;
+	background: #dadbf1;
+}
+.content p{
+	/*width: 100%;*/
+	margin-bottom: 20px;
+}
+
+.content input {
+	width: 100%;
+	font-family: 'GT America', sans-serif;
+	font-size: 1.5rem;
+	padding: 10px;
+	border: 1px solid black;
+	/*margin-top: 20px;*/
+}
+
+.content input:focus {
+	outline: none;
+}
+
+ .input-icons i {
+    position: absolute;
+    font-size: 25px;
+    padding-right: 0;
+}
+
+.input-icons {
+	display: flex;
+    width: 100%;
+    /*margin-bottom: 10px;*/
+    flex-direction: row-reverse;
+
+
+}
+          
+.icon {
+    padding: 15px;
+    min-width: 40px;
+}
+          
+.input-field {
+    width: 100%;
+    text-align: center;
+}
+
+.mainContent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.mainContent div{
+	/*position: absolute;*/
+	display: flex;
+	height: 250px;
+	width: 450px;
+	justify-content: space-between;
+	padding: 30px;
+	font-family: 'GT America', sans-serif;
+	font-size: 20px;
+	/*display: inline-block;*/
+	/*float: left;*/
+}
+
+.mainContent img {
+	height: 85px;
+	width: 85px;
+}
+.mainContent p {
+	width: 75%;
+	/*float: right;*/
+}
+p a {
+	text-decoration: none;
+}
+footer {
+	background: #000000;
+	/*
+	display: flex;
+	flex-direction: row;*/
+	/*float: right;*/
+}
+
+.lastContent {
+	display: flex;
+	padding: 15px;
+	color: white;
+	font-family: 'GT America', sans-serif;
+	/*padding: 5px;*/
+	font-size: 20px;
+
+}
+.lastContent a {
+	font-size: 15px;
+}
+.lastContent div{
+	height: 10em;
+	width: 14em;
+	margin-top: 50px;
+	/*padding: 5px;*/
+
+}
+.lastContent div:nth-child(1) {
+	margin-left: 40px;	
+}
+.headCopyright {
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	/*padding-right: 20px;*/
+}
+.copyright {/*
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid white;*/
+	height: 10em;
+	width: 12em;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	/*float: right;*/
+	color: white;
+	font-family: 'GT America', sans-serif;
+
+}
